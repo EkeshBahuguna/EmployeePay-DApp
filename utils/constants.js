@@ -7,7 +7,7 @@ module.exports = {
     send: 0.001,
     inTransfer: 0.001,
     outTransfer: 0.001,
-    registerResult: 0.001,
-    payroll=0.001
+    registerEmployee:0.001,
+    registerDepartment:0.001,
   }
 }

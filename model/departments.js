@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'employees',
+  name: 'departments',
   fields: [
     {
       name: 'address',
@@ -14,15 +14,16 @@ module.exports = {
       length: 30
     },
     {
-      name: 'empName',
+      name: 'deptName',
       type: 'String',
       length: 50,
       not_null: true,
     },
     {
-      name: 'salary',
-      type: 'Number',
-      default: 0,
+      name: 'designation',
+      type: 'String',
+      length: 50,
+      not_null: true,
       index: true
     }
   ]
